@@ -34,7 +34,7 @@ jobs:
     - name: Switch Role
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-region: ap-northeast2
+        aws-region: ap-northeast-2
         role-to-assume: arn:aws:iam::248239598373:role/DeveloperRole
 
     - name: Login to Amazon ECR
